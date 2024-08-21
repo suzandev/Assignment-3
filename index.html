@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css" />
+
     <!-- Tailwind Integration with DaisyUI-->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -43,7 +47,103 @@
   </head>
   <body class="font-manrope">
     <!-- Header Section -->
-    <header></header>
+    <header
+      class="max-sm:bg-gradient-to-b max-sm:from-white max-sm:to-transparent sm:bg-gray-50">
+      <nav class="container max-w-6xl mx-auto">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a
+              class="btn btn-ghost text-3xl font-extrabold hover:bg-transparent"
+              ><span
+                class="ml-2 w-8 h-8 bg-primary rounded-full flex justify-center items-center rotate-45 text-black"
+                ><i class="fa-regular fa-arrow-up-long text-base"></i
+              ></span>
+              Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-black">
+              <li>
+                <a href="#" class="font-bold hover:bg-transparent">Home</a>
+              </li>
+              <li>
+                <a href="#" class="hover:font-bold hover:bg-transparent"
+                  >Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:font-bold hover:bg-transparent"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:font-bold hover:bg-transparent"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:font-bold hover:bg-transparent"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button
+              class="text-gray-500 btn max-sm:hidden bg-white p-2 rounded-full w-12 h-12 mr-4">
+              <i class="fa-light fa-magnifying-glass text-2xl"></i>
+            </button>
+            <button
+              class="text-gray-500 btn max-sm:hidden bg-white p-2 rounded-full w-12 h-12 mr-4">
+              <i class="fa-light fa-cart-shopping text-lg"></i>
+            </button>
+
+            <a
+              href="#"
+              class="max-sm:hidden px-3 py-2 font-bold bg-primary mr-4 rounded-full flex items-center"
+              >Book Consult
+              <span
+                class="ml-2 w-7 h-7 bg-black rounded-full flex justify-center items-center rotate-45 text-white"
+                ><i class="fa-regular fa-arrow-up-long"></i></span
+            ></a>
+
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn lg:hidden bg-white p-2 rounded-full w-12 h-12">
+                <i class="fa-sharp fa-light fa-bars text-xl"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow translate-x-0 right-0">
+                <li><a href="#" class="font-bold text-black">Home</a></li>
+                <li>
+                  <a href="#" class="hover:font-bold hover:bg-transparent"
+                    >Service</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:font-bold hover:bg-transparent"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:font-bold hover:bg-transparent"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:font-bold hover:bg-transparent"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Main sections -->
     <main>
